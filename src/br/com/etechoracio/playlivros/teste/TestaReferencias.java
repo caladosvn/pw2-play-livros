@@ -1,3 +1,7 @@
+package br.com.etechoracio.playlivros.teste;
+
+import br.com.etechoracio.playlivros.model.Livro;
+
 public class TestaReferencias {
 
     static void main(String[] args) {
