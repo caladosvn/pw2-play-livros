@@ -9,7 +9,18 @@ public class Livro {
    public String narrador;
    public String editora;
    public LocalTime duracao;
-   public String versao;
+   public String VersaoEnumV;
    public double preco;
    public String resumo;
+
+   public void exibir(){
+      System.out.println("=============================");
+      System.out.println("Título: " + titulo);
+      System.out.println("Autor: " + autor);
+      System.out.println("Narrador: " + narrador);
+      System.out.println("Editora: " + editora);
+   }
+
+   public void VersaoEnum() {
+   }
 }
