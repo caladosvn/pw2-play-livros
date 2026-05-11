@@ -10,17 +10,20 @@ import java.time.LocalTime;
 
 public class TestaAvaliacao {
     static void main() {
-        Usuario horacio = new Usuario();
+        Usuario horacio = new Usuario("Horácio Augusto da Silveira");
         horacio.nome = "Horácio Augusto da Silveira";
 
         Avaliacao avaliacao = new Avaliacao();
-        avaliacao.titulo = "Livro Excelente";
-        avaliacao.estrelas = 5;
-        avaliacao.data = LocalDateTime.now();
-        avaliacao.comentario = "Livro excelente, muito bem escrito. Chegou no prazo e bem embalado";
+        avaliacao.titulo = "O Pequeno Príncipe";
         avaliacao.aprovado = true;
+        avaliacao.data = LocalDateTime.now();
         avaliacao.usuario = horacio;
+        avaliacao.estrela = 5;
+        avaliacao.comentario = "Livro excelente, muito bom";
+        avaliacao.exibir2();
 
-        avaliacao.exibir();
+        Avaliacao avaliacaoHoracio = new Avaliacao();
+        avaliacaoHoracio.usuario = new Usuario("Horácio Augusto da Silveira");
+
     }
 }

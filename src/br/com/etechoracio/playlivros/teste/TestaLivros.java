@@ -14,7 +14,7 @@ public class TestaLivros {
         primeirolivro.narrador = "Tem não";
         primeirolivro.editora = "Panini";
         primeirolivro.duracao = LocalTime.of(12,30);
-        primeirolivro.VersaoEnumV = String.valueOf(VersaoEnum.INTEGRAL);
+        primeirolivro.VersaoEnum = String.valueOf(VersaoEnum.INTEGRAL);
         primeirolivro.preco = 49.90;
         primeirolivro.resumo = "Esferas do Dragão";
 
@@ -26,7 +26,7 @@ public class TestaLivros {
         segundolivro.narrador = "Tem não 2";
         segundolivro.editora = "Panini 2";
         segundolivro.duracao = LocalTime.of(12,30);
-        segundolivro.VersaoEnumV = String.valueOf(VersaoEnum.INTEGRAL);
+        segundolivro.VersaoEnum = String.valueOf(VersaoEnum.INTEGRAL);
         segundolivro.preco = 49.91;
         segundolivro.resumo = "Esferas do Dragão 2";
 
