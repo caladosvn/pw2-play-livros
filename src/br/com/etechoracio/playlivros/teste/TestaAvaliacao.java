@@ -16,14 +16,14 @@ public class TestaAvaliacao {
         Avaliacao avaliacao = new Avaliacao();
         avaliacao.titulo = "O Pequeno Príncipe";
         avaliacao.aprovado = true;
-        avaliacao.data = LocalDateTime.now();
-        avaliacao.usuario = horacio;
+        avaliacao.setData(LocalDateTime.now());
+        avaliacao.setUsuario(horacio);
         avaliacao.estrela = 5;
         avaliacao.comentario = "Livro excelente, muito bom";
         avaliacao.exibir2();
 
         Avaliacao avaliacaoHoracio = new Avaliacao();
-        avaliacaoHoracio.usuario = new Usuario("Horácio Augusto da Silveira");
+        avaliacaoHoracio.setUsuario(new Usuario("Horácio Augusto da Silveira"));
 
     }
 }

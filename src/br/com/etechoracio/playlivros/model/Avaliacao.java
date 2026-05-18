@@ -4,12 +4,12 @@ import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
 public class Avaliacao {
-    public int estrela;
-    public boolean aprovado;
-    public Usuario usuario;
-    public String comentario;
-    public LocalDateTime data;
-    public String titulo;
+    private int estrela;
+    private boolean aprovado;
+    private Usuario usuario;
+    private String comentario;
+    private LocalDateTime data;
+    private String titulo;
 
     public void aprovar(){
         this.aprovado = true;
@@ -37,6 +37,14 @@ public class Avaliacao {
             System.out.println(comentario);
         }
 
+    }
+
+    public void setUsuario(Usuario usuario) {
+        this.usuario = usuario;
+    }
+
+    public void setData(LocalDateTime data) {
+        this.data = data;
     }
 }
 
