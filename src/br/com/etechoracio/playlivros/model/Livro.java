@@ -18,6 +18,10 @@ public class Livro {
    private String resumo;
    private LocalDate dataLancamento;
 
+   public String getTitulo() {
+      return titulo;
+   }
+
    public void exibir(){
       System.out.println("Titulo: " + titulo);
       System.out.println("Autor: " + autor);
