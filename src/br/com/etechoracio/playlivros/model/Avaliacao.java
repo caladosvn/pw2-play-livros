@@ -16,7 +16,7 @@ public class Avaliacao {
     }
 
     public  void exibir(){
-        System.out.println(usuario.nome);
+        System.out.println(usuario.getNome());
         System.out.println(estrela + "estrelas " + titulo);
         System.out.println(data);
         System.out.println(comentario);
